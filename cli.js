@@ -16,7 +16,7 @@ var cli = meow({
 		'',
 		'Options',
 		'  --all   Get all names instead of a random name'
-	].join('\n')
+	]
 });
 
 console.log(cli.flags.all ? supervillains.all.join('\n') : supervillains.random());
