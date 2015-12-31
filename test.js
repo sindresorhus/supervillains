@@ -1,10 +1,8 @@
-'use strict';
-var test = require('ava');
-var supervillains = require('./');
+import test from 'ava';
+import x from './';
 
-test(function (t) {
-	t.assert(supervillains.all.length > 0);
-	t.assert(supervillains.all.indexOf('Mud Pack') !== -1);
-	t.assert(supervillains.random());
-	t.end();
+test(t => {
+	t.true(x.all.length > 0);
+	t.true(x.all.indexOf('Mud Pack') !== -1);
+	t.ok(x.random());
 });
