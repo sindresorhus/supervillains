@@ -1,8 +1,8 @@
 import test from 'ava';
-import x from './';
+import supervillains from '.';
 
-test(t => {
-	t.true(x.all.length > 0);
-	t.true(x.all.indexOf('Mud Pack') !== -1);
-	t.truthy(x.random());
+test('main', t => {
+	t.true(supervillains.all.length > 0);
+	t.true(supervillains.all.includes('Mud Pack'));
+	t.truthy(supervillains.random());
 });
