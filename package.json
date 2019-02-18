@@ -38,7 +38,7 @@
 		"unique-random-array": "^1.0.0"
 	},
 	"devDependencies": {
-		"ava": "*",
-		"xo": "*"
+		"ava": "^1.2.1",
+		"xo": "^0.24.0"
 	}
 }
