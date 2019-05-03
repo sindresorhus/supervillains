@@ -19,6 +19,9 @@ $ npm install supervillains
 ```js
 const supervillains = require('supervillains');
 
+supervillains.all;
+//=> ['Abattoir', 'Able Crown', …]
+
 supervillains.random();
 //=> 'Mud Pack'
 ```
@@ -28,7 +31,7 @@ supervillains.random();
 
 ### .all
 
-Type: `Array`
+Type: `string[]`
 
 Supervillain names in alphabetical order.
 
