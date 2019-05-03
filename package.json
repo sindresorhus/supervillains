@@ -1,6 +1,6 @@
 {
 	"name": "supervillains",
-	"version": "2.2.0",
+	"version": "3.0.0",
 	"description": "Get supervillain names",
 	"license": "MIT",
 	"repository": "sindresorhus/supervillains",
