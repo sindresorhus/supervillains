@@ -1,4 +1,4 @@
-# supervillains [![Build Status](https://travis-ci.org/sindresorhus/supervillains.svg?branch=master)](https://travis-ci.org/sindresorhus/supervillains)
+# supervillains
 
 <img src="https://cloud.githubusercontent.com/assets/170270/7563380/f0af1aee-f7dc-11e4-9b83-92fe18cf6bdd.png" width="182" height="282" align="right">
 
