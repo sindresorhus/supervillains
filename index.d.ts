@@ -25,7 +25,7 @@ declare const supervillains: {
 	//=> 'Mud Pack'
 	```
 	*/
-	random(): string;
+	random(): Readonly<typeof supervillainsJson>[number];
 };
 
 export = supervillains;
