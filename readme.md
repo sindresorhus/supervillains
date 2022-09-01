@@ -6,13 +6,11 @@
 
 The list is just a [JSON file](supervillains.json) and can be used anywhere.
 
-
 ## Install
 
+```sh
+npm install supervillains
 ```
-$ npm install supervillains
-```
-
 
 ## Usage
 
@@ -25,7 +23,6 @@ supervillains.all;
 supervillains.random();
 //=> 'Mud Pack'
 ```
-
 
 ## API
 
@@ -41,7 +38,6 @@ Type: `Function`
 
 Random supervillain name.
 
-
 ## Related
 
 - [supervillains-cli](https://github.com/sindresorhus/supervillains-cli) - CLI for this module
@@ -51,8 +47,3 @@ Random supervillain name.
 - [pokemon](https://github.com/sindresorhus/pokemon) - Get Pokémon names
 - [superb](https://github.com/sindresorhus/superb) - Get superb like words
 - [yes-no-words](https://github.com/sindresorhus/yes-no-words) - Get yes/no like words
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)

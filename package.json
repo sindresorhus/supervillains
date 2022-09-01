@@ -47,5 +47,10 @@
 		"compilerOptions": {
 			"resolveJsonModule": true
 		}
+	},
+	"xo": {
+		"rules": {
+			"import/extensions": "off"
+		}
 	}
 }
