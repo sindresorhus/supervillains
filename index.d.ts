@@ -1,31 +1,25 @@
-import supervillainsJson = require('./supervillains.json');
+/**
+Supervillain names in alphabetical order.
 
-declare const supervillains: {
-	/**
-	Supervillain names in alphabetical order.
+@example
+```
+import supervillains from 'supervillains';
 
-	@example
-	```
-	const supervillains = require('supervillains');
+supervillains;
+//=> ['Abattoir', 'Able Crown', …]
+```
+*/
+declare const supervillains: readonly string[];
 
-	supervillains.all;
-	//=> ['Abattoir', 'Able Crown', …]
-	```
-	*/
-	readonly all: Readonly<typeof supervillainsJson>;
+/**
+Get a random supervillain name.
 
-	/**
-	Random supervillain name.
+@example
+```
+import {randomSupervillain} from 'supervillains';
 
-	@example
-	```
-	const supervillains = require('supervillains');
-
-	supervillains.random();
-	//=> 'Mud Pack'
-	```
-	*/
-	random(): Readonly<typeof supervillainsJson>[number];
-};
-
-export = supervillains;
+randomSupervillain();
+//=> 'Mud Pack'
+```
+*/
+export function randomSupervillain(): string;

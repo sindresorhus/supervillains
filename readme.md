@@ -15,28 +15,32 @@ npm install supervillains
 ## Usage
 
 ```js
-const supervillains = require('supervillains');
+import supervillains from 'supervillains';
 
-supervillains.all;
+supervillains;
 //=> ['Abattoir', 'Able Crown', …]
-
-supervillains.random();
-//=> 'Mud Pack'
 ```
 
 ## API
 
-### .all
+### supervillains
 
 Type: `string[]`
 
 Supervillain names in alphabetical order.
 
-### .random()
+### randomSupervillain()
 
 Type: `Function`
 
-Random supervillain name.
+Get a random supervillain name.
+
+```js
+import {randomSupervillain} from 'supervillains';
+
+randomSupervillain();
+//=> 'Mud Pack'
+```
 
 ## Related
 
